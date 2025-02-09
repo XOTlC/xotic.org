@@ -1,0 +1,11 @@
+@use 'components/variables';
+
+@font-face {
+	font-family: 'Archivo';
+	src: url('../assets/archivo.ttf') format('truetype');
+}
+
+body {
+	background: variables.$background-color-light;
+	font-family: 'Archivo', sans-serif;
+}
