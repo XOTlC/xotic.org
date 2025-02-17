@@ -1,0 +1,75 @@
+.madeWith {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	width: fit-content;
+	gap: 5px;
+	margin-left: 2rem;
+}
+
+.heart {
+	animation: beat 1s infinite;
+
+	@keyframes beat {
+		0% {
+			transform: scale(1);
+		}
+
+		5% {
+			transform: scale(1.1);
+		}
+
+		10% {
+			transform: scale(1);
+		}
+
+		15% {
+			transform: scale(1.2);
+		}
+
+		50% {
+			transform: scale(1);
+		}
+
+		100% {
+			transform: scale(1);
+		}
+	}
+}
+
+.socials {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	flex-direction: row-reverse;
+	width: fit-content;
+	gap: 10px;
+	margin-right: 2rem;
+}
+
+.link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	gap: 5px;
+	transition: filter .2s;
+
+	&:hover {
+		filter: brightness(0.8);
+	}
+
+	&:active {
+		filter: brightness(0.6);
+	}
+}
+
+.icon {
+	text-decoration: none;
+}
+
+.tooltip {
+	background-color: var(--accent-color) !important;
+	color: var(--background-color) !important;
+}

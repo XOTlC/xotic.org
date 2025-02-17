@@ -12,7 +12,9 @@
 	"dependencies": {
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
+		"react-router-dom": "^7.1.5",
 		"react-simple-typewriter": "^5.0.1",
+		"react-tooltip": "^5.28.0",
 		"sass": "^1.84.0",
 		"terser": "^5.38.1"
 	},

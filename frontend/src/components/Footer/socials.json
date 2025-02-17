@@ -1,0 +1,27 @@
+[
+	{
+		"name": "GitHub",
+		"link": "https://github.com/XOTlC",
+		"icon": "fab fa-github"
+	},
+	{
+		"name": "Discord",
+		"link": "https://discord.gg/blacket",
+		"icon": "fab fa-discord"
+	},
+	{
+		"name": "Twitter",
+		"link": "https://x.com/XoticBlacket",
+		"icon": "fab fa-twitter"
+	},
+	{
+		"name": "Steam",
+		"link": "https://steamcommunity.com/id/X0TlC",
+		"icon": "fab fa-steam"
+	},
+	{
+		"name": "YouTube",
+		"link": "https://www.youtube.com/@XoticBlacket",
+		"icon": "fab fa-youtube"
+	}
+]

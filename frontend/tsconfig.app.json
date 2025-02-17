@@ -5,9 +5,18 @@
 		"useDefineForClassFields": true,
 		"baseUrl": "./",
 		"paths": {
-			"@assets/*": ["src/assets/*"],
-			"@components/*": ["src/components/*"],
-			"@types/*": ["src/types/*"]
+			"@assets/*": [
+				"src/assets/*"
+			],
+			"@components/*": [
+				"src/components/*"
+			],
+			"@types/*": [
+				"src/types/*"
+			],
+			"@views/*": [
+				"src/views/*"
+			]
 		},
 		"lib": [
 			"ES2020",
