@@ -15,6 +15,14 @@ export default defineConfig(({ mode }) => {
 				'@views': '/src/views'
 			}
 		},
+		server: {
+			proxy: {
+				'/api': {
+					target: 'http://localhost:1512',
+					changeOrigin: true
+				}
+			}
+		},
 		css: {
 			modules: {
 				scopeBehaviour: 'local',
