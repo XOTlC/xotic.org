@@ -72,10 +72,6 @@ export default function XoticFace() {
 			<div className={styles.xoticFace}>
 				<img className={styles.face} src={face} />
 
-				<div className={styles.eyelidContainer}>
-					<div className={styles.eyelid} />
-				</div>
-
 				<img ref={leftEyeRef} className={styles.eye} src={leftEye} />
 				<img ref={rightEyeRef} className={styles.eye} src={rightEye} />
 
