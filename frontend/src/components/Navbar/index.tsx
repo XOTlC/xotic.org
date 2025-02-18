@@ -1,7 +1,9 @@
 import { Typewriter } from 'react-simple-typewriter';
 import words from './words.json';
+import links from './links.json';
 import logo from '@assets/logo.png';
 import styles from './index.module.scss';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
 	return (
@@ -25,6 +27,24 @@ export default function Navbar() {
 						/>
 					</div>
 				</div>
+			</div>
+
+			<nav className={styles.nav}>
+				{links.map((link, i) => (
+					<div className={styles.navLink} key={i}>
+						<Link
+							to={link.link}
+						>
+							{link.name}
+						</Link>
+
+						<i className={link.icon} />
+					</div>
+				))}
+			</nav>
+
+			<div className={styles.hamburger}>
+				<i className='fas fa-bars' />
 			</div>
 		</header>
 	);

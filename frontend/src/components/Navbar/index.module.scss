@@ -31,3 +31,67 @@
 .subtitle {
 	font-size: 1rem;
 }
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.5rem;
+	padding: 10px 20px;
+	gap: 20px;
+
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
+.navLink {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: var(--border-radius);
+	padding: 10px;
+	cursor: pointer;
+	transition: color .2s, background-color .2s;
+
+	&:hover {
+		color: var(--background-color);
+		background-color: var(--accent-color);
+
+		&>a {
+			color: var(--background-color);
+		}
+	}
+
+	&>a {
+		transition: color .2s;
+	}
+}
+
+.hamburger {
+	display: none;
+
+	font-size: 48px;
+	cursor: pointer;
+	transition: filter .2s, transform .2s;
+
+	&:hover {
+		filter: brightness(0.8);
+	}
+
+	&:active {
+		filter: brightness(0.6);
+	}
+
+	&[data-open='true'] {
+		transform: rotate(90deg);
+	}
+
+	@media screen and (max-width: 768px) {
+		display: block;
+	}
+}

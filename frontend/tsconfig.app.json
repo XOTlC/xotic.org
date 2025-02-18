@@ -14,6 +14,9 @@
 			"@types/*": [
 				"src/types/*"
 			],
+			"@utils/*": [
+				"src/utils/*"
+			],
 			"@views/*": [
 				"src/views/*"
 			]

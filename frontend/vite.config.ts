@@ -11,6 +11,7 @@ export default defineConfig(({ mode }) => {
 				'@assets': '/src/assets',
 				'@components': '/src/components',
 				'@types': '/src/types',
+				'@utils': '/src/utils',
 				'@views': '/src/views'
 			}
 		},

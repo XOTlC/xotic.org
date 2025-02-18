@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Home",
+		"link": "/",
+		"icon": "fas fa-home"
+	},
+	{
+		"name": "Projects",
+		"link": "/projects",
+		"icon": "fas fa-code"
+	},
+	{
+		"name": "Blogs",
+		"link": "/blogs",
+		"icon": "fas fa-newspaper"
+	}
+]
